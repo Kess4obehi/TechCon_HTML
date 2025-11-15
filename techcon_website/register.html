@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register for TechCon 2024</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Register for TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <form action="#" method="post" novalidate>
+      <fieldset>
+        <legend>Attendee information</legend>
+        <!-- Full name -->
+        <div>
+          <label for="full-name">Full name</label><br>
+          <input id="full-name" name="full-name" type="text" required autocomplete="name" placeholder="Your full name">
+        </div>
+        <!-- Email -->
+        <div>
+          <label for="email">Email</label><br>
+          <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+        </div>
+        <!-- Passwords -->
+        <div>
+          <label for="password">Password</label><br>
+          <input id="password" name="password" type="password" required minlength="8" aria-describedby="pw-help" placeholder="At least 8 characters">
+        </div>
+        <div>
+          <label for="password-confirm">Cormfirm password</label><br>
+          <input id="password-confirm" name="password-confirm" type="password" minlength="8" placeholder="Type the same password again">
+        </div>
+        <!-- Submit -->
+        <div>
+          <button type="submit">Register Now</button>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2024 TechCon Conference — All rights reserved. copyright.</p>
+  </footer>
+</body>
+</html>
